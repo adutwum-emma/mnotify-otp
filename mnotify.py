@@ -25,7 +25,3 @@ class Mnotify:
             response = requests.post(url, data)
 
             return response.json()
-
-mapi = Mnotify(api_key=os.getenv('MnotifyKey'))
-
-print(mapi.sms_otp(reciepient='0559334838', sender='toskybrown', message='This is your OTP: 131'))
