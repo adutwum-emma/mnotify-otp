@@ -1,4 +1,5 @@
 import requests
+import os
 
 class Mnotify:
 
@@ -25,6 +26,6 @@ class Mnotify:
 
             return response.json()
 
-mapi = Mnotify(api_key='j5USmsBoXbnEQ5dAOhoWB0JdWM9OC86Ve1NAupYrAm6rs')
+mapi = Mnotify(api_key=os.getenv('MnotifyKey'))
 
 print(mapi.sms_otp(reciepient='0559334838', sender='toskybrown', message='This is your OTP: 131'))
