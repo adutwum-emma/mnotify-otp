@@ -9,5 +9,5 @@ Mnotify is a simple Python client for sending SMS OTP (One Time Password) messag
 Clone the repository to your local machine:
 
 ```bash
-`git clone https://github.com/yourusername/mnotify-python-client.git`
-`cd mnotify-python-client`
+`git clone https://github.com/adutwum-emma/mnotify-otp.git`
+`cd mnotify-otp`
